@@ -11,9 +11,9 @@ namespace TPlivre
     {
         private static string costr = "server=btssio.dedyn.io;" +
                                "port=3306;" +
-                               "Database=ROUSSEL_biblio;" +
-                               "Uid=ROUSSEL;" +
-                               "pwd=02082004";
+                               "Database=ELMANOU_Ado;" +
+                               "Uid=ELMANOU;" +
+                               "pwd=17042003";
         private static MySqlConnection _connection = new MySqlConnection(costr);
 
         public static MySqlConnection Co { get => _connection; set => _connection = value; }
